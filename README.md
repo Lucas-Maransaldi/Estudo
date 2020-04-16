@@ -40,3 +40,12 @@ Utilizamos o Spread operator ... para desmembrar os valores de um array, ou obje
 # arrow Function
 
 Substituimos a nomenclatura de funcao de : function(){} para algo do tipo () => {} , deixando assim o codigo menos verbosso.
+
+# Metodos Estaticos
+
+No ES6 possuimos a nomenclatura static para funcoes, permitindo que invoquemos a funcao sem a necessidade de instanciar o objeto a qual a funcao pertence,
+isto faz sentido apartir do momento que nao existe dependencia do metodo com os valores do objeto.
+
+# String template
+
+Podemos usar este modo de concatenacao de string para deixar mais legivel o codigo
