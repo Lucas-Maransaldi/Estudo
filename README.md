@@ -48,4 +48,14 @@ isto faz sentido apartir do momento que nao existe dependencia do metodo com os 
 
 # String template
 
-Podemos usar este modo de concatenacao de string para deixar mais legivel o codigo
+Podemos usar este modo de concatenacao de string para deixar mais legivel o codigo.
+
+# Heranca
+
+Utilizamos para deixar o codigo mais enxuto apartir do momento que metodos comuns podem ser isolados, quando referindo-se a um elemento pertencente
+ao pai, devemos referir o elemento como super(elemento).
+
+# cuidado
+
+this e dinamico, depende do contexto
+Arrow function amarra o escopo, desta forma o this fica fixo na criacao da funcao.
