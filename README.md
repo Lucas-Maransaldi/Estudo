@@ -26,3 +26,17 @@ o valor imutavel quanto a outras propostas de emular private.
 
 utilizar nomenclatura let em vez de var, para garantir que a variavel tenha escolpo de bloco, nao existindo assim fora do
 bloco onde e declarada.
+
+# Bind
+
+Quando associarmos uma funcao a uma variavel, perdemos assim o contexto daquela funcao, porem utilizando do metodo .bind(Obj),
+e possivel manter esta associacao da funcao com ocontexto do objeto, permitindo enxugar no codigo os metodos repetitivos,
+criando uma especie de micro-framework
+
+# Spread operator ...
+
+Utilizamos o Spread operator ... para desmembrar os valores de um array, ou objeto, passando assim os valores como parametro .
+
+# arrow Function
+
+Substituimos a nomenclatura de funcao de : function(){} para algo do tipo () => {} , deixando assim o codigo menos verbosso.
