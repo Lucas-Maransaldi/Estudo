@@ -9,7 +9,7 @@
   <body class="container">
     <h1 class="text-center">Negociações</h1>
     <div id="MensagemView"></div>
-    <form class="form" onsubmit="negociacaoController.addNegociation(event)">
+    <form class="form" onsubmit="negociacaoController.addNegotiation(event)">
       <div class="form-group">
         <label for="data">Data</label>
         <input type="date" id="data" class="form-control" required autofocus />
@@ -48,7 +48,11 @@
       <button class="btn btn-primary text-center" type="button">
         Importar Negociações
       </button>
-      <button class="btn btn-primary text-center" type="button">
+      <button
+        onclick="negociacaoController.deletAllNegotiation()"
+        class="btn btn-primary text-center"
+        type="button"
+      >
         Apagar
       </button>
     </div>

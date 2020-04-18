@@ -1,6 +1,7 @@
 class Mensagem {
-  constructor(mensagem = '') {
+  constructor(renderTrigger, mensagem = '') {
     this._mensagem = mensagem;
+    this._renderTrigger = renderTrigger;
   }
 
   get mensagem() {
@@ -8,5 +9,6 @@ class Mensagem {
   }
   set mensagem(mensagem) {
     this._mensagem = mensagem;
+    this._renderTrigger(this);
   }
 }
