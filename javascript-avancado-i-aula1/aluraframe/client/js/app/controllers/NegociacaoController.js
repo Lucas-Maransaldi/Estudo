@@ -33,7 +33,7 @@ class NegociacaoController {
   deletAllNegotiation() {
     this._listaNegociacoes.emptyList();
     this._mensagem.mensagem = 'nogiciacoes removidas com sucesso';
-    // this._resetForm();
+    this._resetForm();
   }
 
   _createNegociation() {

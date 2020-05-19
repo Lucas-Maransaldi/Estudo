@@ -59,3 +59,5 @@ ao pai, devemos referir o elemento como super(elemento).
 
 this e dinamico, depende do contexto
 Arrow function amarra o escopo, desta forma o this fica fixo na criacao da funcao.
+
+Para manter a reutilizacao dos modelos, é recomendado que deixe a declaracao de seus triggers em um proxy, que consiste em um pseudo objeto que contem seu objeto
