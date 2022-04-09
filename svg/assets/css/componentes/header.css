@@ -1,0 +1,32 @@
+.header-animado {
+    width: 100vw;
+}
+
+.header-animado__titulo {
+    animation: prenchimento-titulo .5s ease-in-out forwards 2.5s;
+    fill: transparent;
+    left: 50%;
+    margin-top: 10%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.header-animado__titulo path {
+    animation: tracado-titulo 5s ease-in-out forwards 0.5s;
+    stroke: #BE253F;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    stroke-width: 2px;
+}
+
+@keyframes prenchimento-titulo {
+    to {
+        fill: #BE253F
+    }
+}
+@keyframes tracado-titulo {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

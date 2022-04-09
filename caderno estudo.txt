@@ -1,0 +1,18 @@
+-> css tips:
+
+	pseudo elementos podem ser considerados como um elemento contendo o elemento e seu before, after ... podendo ser utilizado flex e por ai vai
+
+-> Emmit pra maximizar velocidade de codigo
+	-> filho >
+	-> irmao +
+
+-> editor TIPS:
+
+	->alt + click cria varias referencias para edição simultanea
+
+-> atomic paterner 
+
+	é mais ou menos, mais ou menos;
+
+-> CSS boa PRATICA 
+	-> propriedades do css em ordem alphabetica

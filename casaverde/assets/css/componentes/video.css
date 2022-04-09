@@ -1,0 +1,35 @@
+.video-card {
+    margin-bottom: 2rem;
+}
+
+.video-card__video {
+    margin-bottom:  .5rem;
+    max-height: 17.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.video-card__video::before {
+    background-color: var(--branco);
+    background-image: url(../../img/icones/Vector.svg);
+    background-position: center left 55%;
+    background-repeat: no-repeat;
+    background-size: 1.75rem;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 4.875rem;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 4.875rem;
+}
+
+.video-card__titulo {
+    color: var(--preto);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+    margin-bottom: .5rem;
+}
